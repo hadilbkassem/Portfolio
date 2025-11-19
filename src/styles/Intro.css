@@ -1,0 +1,36 @@
+.int_main_div {
+    display: flex;
+    flex-direction: column;   /* stack image and text vertically */
+    justify-content: center;  /* vertical centering */
+    align-items: center;      /* horizontal centering */
+    height: 100vh;            /* full viewport height */
+    text-align: center;       /* center text under image */
+   
+   
+  }
+  
+  .profile-img {
+    width: 250px;             /* fixed width */
+    height: 250px;            /* fixed height */
+    border-radius: 50%;       /* circular */
+    border: 5px solid #333;   /* border around image */
+    object-fit: cover;        /* keeps aspect ratio */
+    margin-bottom: 1rem;      /* space between image and name */
+  }
+  
+  .desc {
+    font-size: 1.5rem;
+    color: #333333;              /* change as needed */
+    margin: 0.3rem 0;
+  }
+
+
+  #name {
+    border-bottom: 2px solid   #333333; /* only top border */
+    padding-bottom: 0.5rem;         /* space between text and border */
+    margin-bottom: 0.5rem;  
+    font-size: 2rem;
+  font-weight: bold;
+  color: #333333;        /* space from name above */
+  }
+  

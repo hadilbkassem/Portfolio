@@ -1,0 +1,12 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #F5F5F5;
+
+}.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
